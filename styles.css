@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body{
+    background-color:#282d3d;
+    margin: 1em;
+}
+.FontTitle{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+.FontVariant{
+    font-size: 5em;
+}
+.FontVariantP{
+    font-size: 1em;
+}
+
+
+@font-face {
+    font-family: "myFirstFont";
+    src: url(/Web-Typography/fonts/Micro5-Regular.ttf);
+}
+
+@font-face {
+    font-family: "mySecondFont";
+    src: url(/Web-Typography/fonts/ProtestRevolution-Regular.ttf);
+}
+
+@font-face {
+    font-family: "myThirdFont";
+    src: url(/Web-Typography/fonts/KodeMono-VariableFont_wght.ttf);
+}
+
+.first,
+.second,
+.three{
+    padding: 1em;
+}
+
+.first{
+    font-family: "myFirstFont";
+}
+.first p{
+    line-height: 2em;
+}
+
+
+.second{
+    font-family: "mySecondFont";
+}
+.second p{
+    letter-spacing: 1em;
+}
+
+.three{
+    font-family: "myThirdFont";
+}
+.three h1{
+    font-size: 3em;
+}
+.three p{
+    line-height: 3em;
+    letter-spacing: .5em;
+}
